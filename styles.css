@@ -1,0 +1,153 @@
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header y navegación */
+header {
+    background-color: #1d1d1d;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #e8b708;
+}
+
+/* Sección Hero (imagen destacada) */
+.hero {
+    background-image: url('tu_imagen_hero.jpg'); /* Aquí puedes añadir la imagen de fondo */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    padding: 10px 30px;
+    background-color: #e8b708;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #d4a500;
+}
+
+/* Sección de patrocinadores */
+.sponsors {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.sponsors img {
+    width: 150px;
+    margin: 20px;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+.sponsor img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Sección de detalle del patrocinador */
+.patrocinador-detalle {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.patrocinador img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.patrocinador p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #333;
+}
+
+/* Sección de contenido */
+.content {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.content h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news article {
+    width: 30%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.news article h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.news article p {
+    font-size: 16px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1d1d1d;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
